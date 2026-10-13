@@ -1,0 +1,82 @@
+Frame 2060: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface wlp1s0, id 0
+    Section number: 1
+    Interface id: 0 (wlp1s0)
+        Interface name: wlp1s0
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Oct 13, 2026 15:46:50.061387373 WIB
+    UTC Arrival Time: Oct 13, 2026 08:46:50.061387373 UTC
+    Epoch Arrival Time: 1791881210.061387373
+    [Time shift for this packet: 0.000000000 seconds]
+    [Time delta from previous captured frame: 0.006025923 seconds]
+    [Time delta from previous displayed frame: 8.565067261 seconds]
+    [Time since reference or first frame: 12.801490602 seconds]
+    Frame Number: 2060
+    Frame Length: 74 bytes (592 bits)
+    Capture Length: 74 bytes (592 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:dns]
+    [Coloring Rule Name: UDP]
+    [Coloring Rule String: udp]
+Ethernet II, Src: HonHaiPrecis_f3:fd:ff (d8:5d:e2:f3:fd:ff), Dst: VMware_9f:5a:c2 (00:50:56:9f:5a:c2)
+    Destination: VMware_9f:5a:c2 (00:50:56:9f:5a:c2)
+        Address: VMware_9f:5a:c2 (00:50:56:9f:5a:c2)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: HonHaiPrecis_f3:fd:ff (d8:5d:e2:f3:fd:ff)
+        Address: HonHaiPrecis_f3:fd:ff (d8:5d:e2:f3:fd:ff)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 10.252.128.129, Dst: 10.252.128.2
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 60
+    Identification: 0xd30a (54026)
+    000. .... = Flags: 0x0
+        0... .... = Reserved bit: Not set
+        .0.. .... = Don't fragment: Not set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 64
+    Protocol: UDP (17)
+    Header Checksum: 0x912b [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 10.252.128.129
+    Destination Address: 10.252.128.2
+User Datagram Protocol, Src Port: 47957, Dst Port: 53
+    Source Port: 47957
+    Destination Port: 53
+    Length: 40
+    Checksum: 0x109c [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 307]
+    [Timestamps]
+        [Time since first frame: 0.000000000 seconds]
+        [Time since previous frame: 0.000000000 seconds]
+    UDP payload (32 bytes)
+Domain Name System (query)
+    Transaction ID: 0xfc5c
+    Flags: 0x0100 Standard query
+        0... .... .... .... = Response: Message is a query
+        .000 0... .... .... = Opcode: Standard query (0)
+        .... ..0. .... .... = Truncated: Message is not truncated
+        .... ...1 .... .... = Recursion desired: Do query recursively
+        .... .... .0.. .... = Z: reserved (0)
+        .... .... ...0 .... = Non-authenticated data: Unacceptable
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        www.pens.ac.id: type A, class IN
+            Name: www.pens.ac.id
+            [Name Length: 14]
+            [Label Count: 4]
+            Type: A (1) (Host Address)
+            Class: IN (0x0001)
+    [Response In: 2070]
+

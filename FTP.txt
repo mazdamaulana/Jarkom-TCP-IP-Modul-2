@@ -1,0 +1,105 @@
+Frame 86768: Packet, 132 bytes on wire (1056 bits), 132 bytes captured (1056 bits) on interface \Device\NPF_{DAA56052-1614-4A4E-8BE4-AD784D121EE7}, id 0
+    Section number: 1
+    Interface id: 0 (\Device\NPF_{DAA56052-1614-4A4E-8BE4-AD784D121EE7})
+        Interface name: \Device\NPF_{DAA56052-1614-4A4E-8BE4-AD784D121EE7}
+        Interface description: Wi-Fi
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Oct 13, 2026 16:51:18.666107800 SE Asia Standard Time
+    UTC Arrival Time: Oct 13, 2026 09:51:18.666107800 UTC
+    Epoch Arrival Time: 1791885078.666107800
+    [Time shift for this packet: 0.000000000 seconds]
+    [Time delta from previous captured frame: 700 nanoseconds]
+    [Time delta from previous displayed frame: 1.388353300 seconds]
+    [Time since reference or first frame: 2 minutes, 299.759500 milliseconds]
+    Frame Number: 86768
+    Frame Length: 132 bytes (1056 bits)
+    Capture Length: 132 bytes (1056 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp:ftp]
+    Character encoding: ASCII (0)
+    [Coloring Rule Name: TCP]
+    [Coloring Rule String: tcp]
+Ethernet II, Src: VMware_b5:55:03 (00:50:56:b5:55:03), Dst: LiteonTechno_4b:d5:dd (24:b2:b9:4b:d5:dd)
+    Destination: LiteonTechno_4b:d5:dd (24:b2:b9:4b:d5:dd)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: VMware_b5:55:03 (00:50:56:b5:55:03)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+    [Stream index: 40]
+Internet Protocol Version 4, Src: 202.9.85.80, Dst: 10.252.131.107
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 118
+    Identification: 0x7956 (31062)
+    010. .... = Flags: 0x2, Don't fragment
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 63
+    Protocol: TCP (6)
+    Header Checksum: 0x146b [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 202.9.85.80
+    Destination Address: 10.252.131.107
+    [Stream index: 25]
+Transmission Control Protocol, Src Port: 21, Dst Port: 61700, Seq: 604, Ack: 289, Len: 78
+    Source Port: 21
+    Destination Port: 61700
+    [Stream index: 20]
+    [Stream Packet Number: 45]
+    [Conversation completeness: Incomplete, DATA (15)]
+        ..0. .... = RST: Absent
+        ...0 .... = FIN: Absent
+        .... 1... = Data: Present
+        .... .1.. = ACK: Present
+        .... ..1. = SYN-ACK: Present
+        .... ...1 = SYN: Present
+        [Completeness Flags: ··DASS]
+    [TCP Segment Len: 78]
+    Sequence Number: 604    (relative sequence number)
+    Sequence Number (raw): 721770193
+    [Next Sequence Number: 682    (relative sequence number)]
+    Acknowledgment Number: 289    (relative ack number)
+    Acknowledgment number (raw): 604470562
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x018 (PSH, ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Accurate ECN: Not set
+        .... 0... .... = Congestion Window Reduced: Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 1... = Push: Set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+        [TCP Flags: ·······AP···]
+    Window: 229
+    [Calculated window size: 29312]
+    [Window size scaling factor: 128]
+    Checksum: 0x794e [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    [Timestamps]
+        [Time since first frame in this TCP stream: 1 minute, 34.968832600 seconds]
+        [Time since previous frame in this TCP stream: 11.400 microseconds]
+    [SEQ/ACK analysis]
+        [iRTT: 103.337900 milliseconds]
+        [Bytes in flight: 78]
+        [Bytes sent since last PSH flag: 78]
+    [Client Contiguous Streams: 1]
+    [Server Contiguous Streams: 1]
+    TCP payload (78 bytes)
+File Transfer Protocol (FTP)
+    150 Opening BINARY mode data connection for 1.4 Hacking.mp4 (41326113 bytes)\r\n
+        Response code: File status okay; about to open data connection (150)
+        Response arg: Opening BINARY mode data connection for 1.4 Hacking.mp4 (41326113 bytes)
+[Current working directory: /ebook/Certified Ethical Hacker (CEH) v12/Module 1 - Introduction To Ethical Hacking]
+
