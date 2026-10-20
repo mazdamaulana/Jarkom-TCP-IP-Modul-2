@@ -1,0 +1,66 @@
+Frame 2517: 98 bytes on wire (784 bits), 98 bytes captured (784 bits) on interface wlp1s0, id 0
+    Section number: 1
+    Interface id: 0 (wlp1s0)
+        Interface name: wlp1s0
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Oct 20, 2026 14:50:30.277746921 WIB
+    UTC Arrival Time: Oct 20, 2026 07:50:30.277746921 UTC
+    Epoch Arrival Time: 1792482630.277746921
+    [Time shift for this packet: 0.000000000 seconds]
+    [Time delta from previous captured frame: 0.005730783 seconds]
+    [Time delta from previous displayed frame: 0.005730783 seconds]
+    [Time since reference or first frame: 19.984729809 seconds]
+    Frame Number: 2517
+    Frame Length: 98 bytes (784 bits)
+    Capture Length: 98 bytes (784 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:icmp:data]
+    [Coloring Rule Name: ICMP]
+    [Coloring Rule String: icmp || icmpv6]
+Ethernet II, Src: VMware_9f:e1:85 (00:50:56:9f:e1:85), Dst: HonHaiPrecis_f3:fd:ff (d8:5d:e2:f3:fd:ff)
+    Destination: HonHaiPrecis_f3:fd:ff (d8:5d:e2:f3:fd:ff)
+        Address: HonHaiPrecis_f3:fd:ff (d8:5d:e2:f3:fd:ff)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: VMware_9f:e1:85 (00:50:56:9f:e1:85)
+        Address: VMware_9f:e1:85 (00:50:56:9f:e1:85)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 10.252.1.1, Dst: 10.252.133.128
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 84
+    Identification: 0xeeb5 (61109)
+    010. .... = Flags: 0x2, Don't fragment
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 253
+    Protocol: ICMP (1)
+    Header Checksum: 0xf279 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 10.252.1.1
+    Destination Address: 10.252.133.128
+Internet Control Message Protocol
+    Type: 0 (Echo (ping) reply)
+    Code: 0
+    Checksum: 0xe575 [correct]
+    [Checksum Status: Good]
+    Identifier (BE): 62215 (0xf307)
+    Identifier (LE): 2035 (0x07f3)
+    Sequence Number (BE): 1 (0x0001)
+    Sequence Number (LE): 256 (0x0100)
+    [Request frame: 2516]
+    [Response time: 5.731 ms]
+    Timestamp from icmp data: Oct 20, 2026 14:50:30.271943000 WIB
+    [Timestamp from icmp data (relative): 0.005803921 seconds]
+    Data (40 bytes)
+        Data: 101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f3031323334353637
+        [Length: 40]
+
